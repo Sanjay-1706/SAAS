@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #38bdf8;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #cbd5f5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-outline {
+  padding: 8px 16px;
+  border: 1px solid #38bdf8;
+  background: transparent;
+  color: #38bdf8;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #cbd5f5;
+  margin-bottom: 30px;
+}
+
+.hero-buttons button {
+  margin-right: 15px;
+}
+
+.btn-primary {
+  padding: 12px 24px;
+  background: #38bdf8;
+  border: none;
+  color: #020617;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  padding: 12px 24px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-card {
+  background: #020617;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.stat {
+  font-size: 36px;
+  color: #22c55e;
+}
+
+/* Features */
+.features {
+  padding: 80px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.feature-card {
+  background: #020617;
+  padding: 30px;
+  border-radius: 14px;
+}
+
+/* Pricing */
+.pricing {
+  padding: 80px;
+  text-align: center;
+}
+
+.pricing-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.price-card {
+  background: #020617;
+  padding: 40px;
+  border-radius: 16px;
+  width: 260px;
+}
+
+.price {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.highlight {
+  border: 2px solid #38bdf8;
+}
+
+/* Footer */
+.footer {
+  padding: 30px;
+  text-align: center;
+  background: #020617;
+  color: #94a3b8;
+}
